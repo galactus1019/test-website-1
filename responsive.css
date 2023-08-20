@@ -1,0 +1,38 @@
+@media screen and (max-width:1275px) {
+
+    .nav{
+        flex-direction: column;
+    }
+    .nav ul{
+        margin: 10px 0;
+    }
+    .nav ul li{
+        padding-left:0 ;
+        padding-right:20px;
+    }
+    .nav .text{
+        border: 2px solid orange;
+        margin: 0;
+    }
+}
+@media screen and (max-width:1110px) {
+    .main{
+        margin: 20px;
+    }
+    .loginBox{
+        position: static;
+        margin: 20px;
+        width: 250px;
+    }
+}
+@media screen and (max-width:600px) {
+    .nav ul{
+        flex-direction: column;
+    }
+    .main span{
+        font-size: 45px;
+    }
+    .nav .text{
+        width: 290px;
+    }
+}
